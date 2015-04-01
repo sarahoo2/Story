@@ -8,7 +8,7 @@ import com.company.Chars.Tortoise;
  * Created by navenprasad25 on 31/03/2015.
  */
 public class Jungle {
-    private static int capacity = 10;
+    private static int capacity = 11;
 
     public Characters createAnimal(String animalType){
         if(capacity > 0 && animalType == "Rabbit"){
